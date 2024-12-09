@@ -1,0 +1,20 @@
+create table emp
+(
+empid int,
+empname varchar(10),
+salary int,
+manager_id int
+)
+
+
+insert all
+into emp values(10,'sai',23000,18)
+into emp values(11,'hari',56000,16)
+into emp values(12,'bai',78000,18)
+into emp values(13,'dai',45000,17)
+into emp values(14,'gai',67000,18)
+into emp values(15,'tai',76000,18)
+into emp values(16,'yai',34000,null)
+into emp values(17,'nai',23999,16)
+into emp values(18,'jai',98000,17)
+select * from dual;
